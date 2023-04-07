@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head><title>About</title>
+</head>
+<body>
+    <section id="header"><span id="first-span">Emmanuel</span> 
+        <img id="menu" function onclick="myFunc()" src="Menu.png" alt="your browser does not support png!!">
+        <section id="ul">
+            <ul>
+                <a href="Home.html"><li><button id="buttons"><span id="buttonspan"> Home </span></button></li></a>
+                <a href="portfolio-Box.html"> <li> <button id="buttons"><span id="buttonspan"> Portfolio </span></button> </li></a>
+                <a href="about.html"><li> <button id="buttons"><span id="buttonspan">About</span></button></li></a>
+                <a href="hire me.html"><li> <button id="buttons"><span id="buttonspan">Hire Me</span></button></li></a>
+            </ul>
+
+        </section></section>
+    <section id="first-sec"><span id="second-span">
+        "Emmanuel is a full-stack web developer specialized in Html, Css and Javascript,
+         He has gained several certificates at excellence at various web developing institutes.
+         His knowelegde of Html and Css comes in handy considering that this are two common Languages
+         for full-stack developer and can perform faster on devices He also builds well responsive web pages
+         that appears Good in every devices, u can view His works here   "
+    </span></section>
+</body>
+
+<script type="text/javascript">
+    var name = document.getElementById('menu');
+    var text = doument.getElementById('ul');
+
+    function myFunc(){
+        if (ul.style.display == 'none') {
+            ul.style.display = 'block'
+        } else {
+            ul.style.display = 'none';
+        }
+    }
+
+</script>
+
+<style>
+    #header{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 9vh;
+        width: 100vw;
+        background-color: white;
+        z-index: 2;
+    }
+    #buttons{
+        border: none;
+        background-color: transparent;
+    }
+#first-sec{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: hotpink;
+}
+#first-span {
+  position: absolute;
+  top: 10px;
+  left: 12%;
+  font-size: 27px;
+  font-family: comic sans ms;
+}
+#menu{
+    display: none;
+}
+ul{
+    
+    margin-left: -67px;
+    float: right;
+    margin-top: 0;
+    position: absolute;
+    height: 5vh;
+    left: 55%;
+    top: 40%;
+}
+    
+    
+ul li {
+        display: inline;
+        padding: 23px;
+        color: black;
+        font-size:20px;
+        font-weight: 600;
+        text-decoration: none;
+        list-style: none;
+
+    }
+    #buttonspan{
+        font-size: 18px;
+    }
+    #buttons:hover {
+        background-color: grey;
+        background-size: medium;
+        color: red;
+    }
+#second-span {
+  position: absolute;
+  top: 33%;
+  left: 11%;
+  font-size: 20px;
+  font-family: comic sans ms;
+  text-align: justify;
+  width: 76vw;
+}
+
+@media (max-width: 1197px){
+ul {
+  margin-left: -67px;
+  float: right;
+  margin-top: 0;
+  position: absolute;
+  height: 5vh;
+  left: 50%;
+  top: 40%;
+}
+}
+@media (max-width: 1066px){
+ul {
+  margin-left: -67px;
+  float: right;
+  margin-top: 0;
+  position: absolute;
+  height: 5vh;
+  left: 45%;
+  top: 40%;
+}
+}
+@media (max-width: 907px){
+#buttonspan {
+  font-size: 17px;
+}
+ul li {
+  display: inline;
+  padding: 17px;
+  color: black;
+  font-size: 17px;
+  font-weight: 600;
+  text-decoration: none;
+  list-style: none;
+}
+}
+@media (max-width: 800px){
+#buttonspan {
+  font-size: 15px;
+}
+}
+@media (max-width: 710px){
+#buttonspan {
+  font-size: 17px;
+}
+#second-span {
+  position: absolute;
+  top: 20%;
+  left: 11%;
+  font-size: 20px;
+  font-family: comic sans ms;
+  text-align: justify;
+  width: 76vw;
+}
+ul li {
+  display: inline;
+  padding: 5px;
+  color: black;
+  font-size: 17px;
+  font-weight: 600;
+  text-decoration: none;
+  list-style: none;
+}
+ul {
+  margin-left: -67px;
+  float: right;
+  margin-top: 0;
+  position: absolute;
+  height: 5vh;
+  left: 47%;
+  top: 40%;
+}
+}
+@media (max-width: 625px){
+#buttonspan {
+  font-size: 16px;
+}
+ul {
+  margin-left: -67px;
+  float: right;
+  margin-top: 0;
+  position: absolute;
+  height: 5vh;
+  left: 48%;
+  top: 40%;
+}
+ul li {
+  display: inline;
+  padding: 2px;
+  color: black;
+  font-size: 17px;
+  font-weight: 600;
+  text-decoration: none;
+  list-style: none;
+}
+}
+@media (max-width: 567px){
+    #ul {
+        display: none;
+        position: absolute;
+        top: 110%;
+        left: 0;
+        width: 100vw;
+        height: 33vh;
+        background-color: whitesmoke;
+    }
+    ul li {
+        display: block;
+        padding: 5px;
+        color: black;
+        font-size: 17px;
+        font-weight: 600;
+        text-decoration: none;
+        list-style: none;
+    }
+    ul {
+        margin-left: -67px;
+        float: right;
+        margin-top: 0;
+        position: absolute;
+        height: 5vh;
+        left: 48%;
+        top: 4%;
+    }
+    #buttonspan {
+         font-size: 21px;
+    }
+
+    #menu{
+        display: block;
+        position: absolute;
+        top: 25%;
+        left: 75%;
+        height: 6vh;
+    }
+    #menu:hover{
+        background-color: grey;
+    }
+}
+@media (max-width: 393px){
+ul {
+    margin-left: -67px;
+    float: right;
+    margin-top: 0;
+    position: absolute;
+    height: 5vh;
+    left: 45%;
+    top: 4%;
+}
+}
+@media (max-width: 335px){
+#first-sec {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 125vh;
+  width: 100vw;
+  background-color: hotpink;
+}
+#second-span {
+  position: absolute;
+  top: 14%;
+  left: 11%;
+  font-size: 19px;
+  font-family: comic sans ms;
+  text-align: justify;
+  width: 76vw;
+}
+#menu {
+  display: block;
+  position: absolute;
+  top: 34%;
+  left: 75%;
+  height: 5vh;
+}
+}
+</style>
+</html>

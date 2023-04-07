@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head><title>slide-show</title>
+    </head>
+<body>
+    <img id="car" />
+</body>
+    <script type="text/javascript">
+
+        const cars = [ // indexes
+            "beautiful-engineer.jpg",        //0
+            "confident-architect.jpg",       //1
+            "open book.jpg",                 //2
+            "NKRO-26tf.jpg"                  //3
+    ];
+
+    let lastIndex = cars.lenght - 1;
+    let currentIndex = 0;
+
+    showImage();
+    function showImage() {
+        car.src = cars[currentIndex];
+    }
+
+    setInterval(slide, 1000);
+    function slide() {
+        let index = getNextImageIndex();
+        showImage(index);
+    }
+
+    function getNextImageIndex() {
+        currentIndex = 
+        currentIndex == lastIndex ? 0 
+                      : currentIndex+1;
+        return currentIndex;
+    }
+
+    </script>
+
+</html>
